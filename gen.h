@@ -17,6 +17,7 @@ public:
     void seleccion();
     Individuo* getIndividuo(int);
     void ordenarPorAptitud();
+
     void ordenarPorAptitud2();
 
 };
