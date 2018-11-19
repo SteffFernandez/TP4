@@ -85,7 +85,7 @@ void Gen::seleccion(){
             poblacion[i]=pobFinal[i];
         }
         else{
-            poblacion[i]=pobFinal[i+115];
+            poblacion[i]=pobFinal[i+15];
         }
     }
 }
