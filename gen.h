@@ -13,12 +13,12 @@ public:
     void generarPoblacion();
     void cruzar();
     void mutar();
-    void aptitud();
+    void calcularAptitud(Individuo*,int,int);
     void seleccion();
     Individuo* getIndividuo(int);
     void ordenarPorAptitud();
 
-    void ordenarPorAptitud2();
+    void ordenarPorAptitud2();//fines ilustrativos
 
 };
 #endif // GEN_H

@@ -89,3 +89,7 @@ void Gen::seleccion(){
         }
     }
 }
+void Gen::calcularAptitud(Individuo * ind,int valorIndividuo, int valorReal){
+    int apt=valorReal-valorIndividuo;
+    ind->setAptitud(apt);
+}

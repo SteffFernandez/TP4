@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     Gen * g=new Gen();
-    for(int i=0; i<100; i++){
+    for(int i=0; i<10000; i++){
     g->cruzar();
     g->mutar();
     g->ordenarPorAptitud();
